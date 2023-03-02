@@ -5,7 +5,8 @@ using DevExpress.XtraEditors;
 using DevExpress.XtraRichEdit;
 
 namespace RichEditDataBoundScenario {
-    public partial class Form1 : Form {
+    public partial class Form1 : DevExpress.XtraEditors.XtraForm
+    {
         public Form1() {
             InitializeComponent();
         }
@@ -61,7 +62,7 @@ namespace RichEditDataBoundScenario {
             btnAcceptChanges.Enabled = this.dataSet11.HasChanges() && !richEditControl1.Modified;
 
             // Update info panel
-            lblCurrentRecordInfo.Text = string.Format("Current Record: {0}{1}",
+            richEditControl1item.Text = string.Format("Current Record: {0}{1}",
                 carsBindingSource.Position, (btnRejectChanges.Enabled ? "*" : ""));
         }
     }
