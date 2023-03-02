@@ -11,7 +11,7 @@
 <!-- default file list end -->
 # How to use a RichEditControl in Bound Mode
 
-<p>This example illustrates how to bind the RichEditControl to an **Rtf** data column and handle **Rtf** content saving/loading operations (note that actual data is stored in the SQL Server database). The major aspects covered by this example are:</p>
+<p>This example illustrates how to bind the RichEditControl to an <b>Rtf</b> data column and handle <b>Rtf</b> content saving/loading operations (note that actual data is stored in the SQL Server database). The major aspects covered by this example are:</p>
 
 <p>1) Choosing the SQL column data type for Rtf content. Most often, the <strong>varchar(max)</strong> type is sufficient for this purpose (note that <a href="http://en.wikipedia.org/wiki/Rich_Text_Format"><u>Rich Text Format</u></a> is an 8-bit format). See also: <a href="http://msdn.microsoft.com/en-us/library/bb386947.aspx"><u>SQL-CLR Type Mapping</u></a>.</p>
 
