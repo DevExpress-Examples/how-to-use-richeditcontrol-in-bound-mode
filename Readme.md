@@ -25,7 +25,7 @@ The picture below illustrates the sample in action.
 * [Program.cs](./CS/Program.cs) (VB: [Program.vb](./VB/Program.vb))
 * [Script.sql](./CS/Script.sql)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-use-richeditcontrol-in-bound-mode&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-use-richeditcontrol-in-bound-mode&~~~was_helpful=no)
 
